@@ -7,7 +7,16 @@
         "email": "info@webmors.com"
     }
     ],
+    "description": "OctoberCMS plugin for Twilio",
     "require": {
-        "twilio/sdk": "^5.0"
+        "php": ">=7.2",
+        "composer/installers": "~1.0",
+        "twilio/sdk": "^5.0",
+        "mews/purifier": "~2.0"
+    },
+    "replace": {
+        "illuminate/support": "5.5.x",
+        "illuminate/session": "5.5.x",
+        "illuminate/events": "5.5.x"
     }
 }
