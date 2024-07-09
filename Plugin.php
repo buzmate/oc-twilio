@@ -18,10 +18,11 @@ class Plugin extends PluginBase
 
     public function register()
     {
-        \App::registerClassAlias('QrCode', \SimpleSoftwareIO\QrCode\Facades\QrCode::class);
+        \App::registerClassAlias('TwilioClient', \Twilio\Rest\Client::class);
+        /*
         \App::register(\SimpleSoftwareIO\QrCode\QrCodeServiceProvider::class);
         \App::registerClassAlias('QrcodeManager', \Dondo\Qrcodes\Facades\QrcodeManager::class);
         \App::register(\Dondo\Qrcodes\Providers\QrcodeServiceProvider::class);
-
+        */
     }
 }
