@@ -1,9 +1,9 @@
-<?php namespace Tiipiik\SmsSender\ReportWidgets;
+<?php namespace Webmors\SmsSender\ReportWidgets;
 
 use Exception;
 use Backend\Classes\ReportWidgetBase;
 use System\Classes\ApplicationException;
-use Tiipiik\SmsSender\Classes\Sender as SmsSender;
+use Webmors\SmsSender\Classes\Sender as SmsSender;
 
 /**
  * SmsSender messages overview widget.

@@ -1,9 +1,9 @@
-<?php namespace Tiipiik\SmsSender\Classes;
+<?php namespace Webmors\SmsSender\Classes;
 
 use Twilio\Rest\Client as Services_Twilio;
 use Exception;
-use Tiipiik\SmsSender\Models\Setting;
-use Tiipiik\SmsSender\Models\MessageHistory;
+use Webmors\SmsSender\Models\Setting;
+use Webmors\SmsSender\Models\MessageHistory;
 
 class Sender
 {

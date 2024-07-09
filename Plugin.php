@@ -1,4 +1,4 @@
-<?php namespace Tiipiik\SmsSender;
+<?php namespace Webmors\SmsSender;
 
 use App;
 use Backend;
@@ -14,7 +14,7 @@ class Plugin extends PluginBase
         return [
             'name'        => 'SmsSender',
             'description' => 'Send SMS to your users, through various providers.',
-            'author'      => 'Tiipiik',
+            'author'      => 'Webmors',
             'icon'        => 'icon-envelope-square'
         ];
     }
@@ -22,7 +22,7 @@ class Plugin extends PluginBase
     public function registerReportWidgets()
     {
         return [
-            'Tiipiik\SmsSender\ReportWidgets\MessagesOverview'=>[
+            'Webmors\SmsSender\ReportWidgets\MessagesOverview'=>[
                 'label'=>'SmsSender messages overview',
                 'context'=>'dashboard'
             ]
@@ -36,10 +36,9 @@ class Plugin extends PluginBase
                 'label' => 'SMS Sender',
                 'icon' => 'icon-envelope-square',
                 'description' => 'Send SMS to your users, through various providers.',
-                'class' => 'Tiipiik\SmsSender\Models\Setting',
+                'class' => 'Webmors\SmsSender\Models\Setting',
                 'order' => 100
             ]
         ];
     }
-
 }

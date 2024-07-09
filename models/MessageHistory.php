@@ -1,4 +1,4 @@
-<?php namespace Tiipiik\SmsSender\Models;
+<?php namespace Webmors\SmsSender\Models;
 
 use Model;
 

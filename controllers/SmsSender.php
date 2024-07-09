@@ -1,4 +1,4 @@
-<?php namespace Tiipiik\SmsSender\Controllers;
+<?php namespace Webmors\SmsSender\Controllers;
 
 use BackendMenu;
 use Backend\Classes\Controller;
@@ -20,6 +20,6 @@ class SmsSender extends Controller
     {
         parent::__construct();
 
-        BackendMenu::setContext('Tiipiik.SmsSender', 'smssender', 'smssender');
+        BackendMenu::setContext('Webmors.SmsSender', 'smssender', 'smssender');
     }
 }
