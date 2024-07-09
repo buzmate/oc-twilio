@@ -1,4 +1,4 @@
-<?php namespace Webmors\Twillio;
+<?php namespace Webmors\Twilio;
 
 use System\Classes\PluginBase;
 
