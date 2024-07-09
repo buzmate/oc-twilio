@@ -1,7 +1,5 @@
-<?php namespace Dondo\Qrcodes;
+<?php namespace Webmors\Twillio;
 
-use Dondo\Qrcodes\Models\QRcode;
-//use \Ramsey\Uuid\Uuid;
 use System\Classes\PluginBase;
 
 class Plugin extends PluginBase
@@ -16,9 +14,6 @@ class Plugin extends PluginBase
 
     public function boot()
     {
-        //\Config::set('sanctum', \Config::get('dondo.auth::sanctum'));
-        /* $this->app[\Illuminate\Contracts\Http\Kernel::class]
-            ->prependMiddleware(SimpleSoftwareIO\QrCode\QrCodeServiceProvider::class); */
     }
 
     public function register()
