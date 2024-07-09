@@ -1,5 +1,13 @@
 {
+    "name": "tiipiik/SmsSender-plugin",
+    "type": "october-plugin",
+    "authors": [
+    {
+        "name": "Webmors",
+        "email": "info@webmors.com"
+    }
+    ],
     "require": {
-        "twilio/sdk": "dev-master"
+        "twilio/sdk": "^5.0"
     }
 }
