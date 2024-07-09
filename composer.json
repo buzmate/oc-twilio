@@ -1,0 +1,14 @@
+{
+    "name": "webmors/qrcodes-plugin",
+    "type": "october-plugin",
+    "authors": [
+        {
+            "name": "Dominik Vozar",
+            "email": "dominikvozr@gmail.com"
+        }
+    ],
+    "require": {
+        "simplesoftwareio/simple-qrcode": "^4.2",
+        "ramsey/uuid": "^4.6"
+    }
+}
