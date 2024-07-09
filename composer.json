@@ -18,5 +18,10 @@
         "illuminate/support": "5.5.x",
         "illuminate/session": "5.5.x",
         "illuminate/events": "5.5.x"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
     }
 }
