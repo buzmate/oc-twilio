@@ -1,10 +1,10 @@
 plugin:
-    name: 'dondo.qrcodes::lang.plugin.name'
-    description: 'dondo.qrcodes::lang.plugin.description'
-    author: Dondo
+    name: 'webmors.twilio::lang.plugin.name'
+    description: 'webmors.twilio::lang.plugin.description'
+    author: Webmors
     icon: oc-icon-qrcode
     homepage: ''
 permissions:
-    can-qrcode:
-        tab: can-qrcode
-        label: can-qrcode
+    can-smstwilio:
+        tab: can-smstwilio
+        label: can-smstwilio
