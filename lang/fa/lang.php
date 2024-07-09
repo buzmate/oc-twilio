@@ -2,8 +2,8 @@
 
 return [
     'backend'=> [
-        'from_label'=>'From number',
-        'from_ph'=>'International number used to send SMS',
+        'from_label'=>'از شماره',
+        'from_ph'=>'شماره‌های بین‌المللی برای ارسال پیامک استفاده شده‌اند.',
         'from_comment'=>'Specify the international number for the "from" field of the message',
         
         'gateways_label'=>'Gateways',
@@ -12,11 +12,11 @@ return [
         'clickatell_tab'=>'Clickatell',
         'twilio_tab'=>'Twilio',
         
-        'clickatell_username'=>'Username',
-        'clickatell_username_ph'=>'Your Clickatell username',
-        'clickatell_username_comment'=>'The username you use for your Clickatell account',
+        'clickatell_username'=>'نام‌کاربری',
+        'clickatell_username_ph'=>'نام کاربری شما در Clickatell',
+        'clickatell_username_comment'=>'نامی که برای حساب کاربری در Clickatell استفاده می‌کنید.',
         
-        'clickatell_passwd'=>'Password',
+        'clickatell_passwd'=>'گذرواژه',
         'clickatell_passwd_ph'=>'Your Clickatell password',
         'clickatell_passwd_comment'=>'The password you use for your Clickatell account',
         

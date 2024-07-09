@@ -1,13 +1,5 @@
 {
-    "name": "webmors/twilio-plugin",
-    "type": "october-plugin",
-    "authors": [
-        {
-            "name": "Webmors",
-            "email": "info@webmors.com"
-        }
-    ],
     "require": {
-        "twilio/sdk": "^5.0"
+        "twilio/sdk": "dev-master"
     }
 }
