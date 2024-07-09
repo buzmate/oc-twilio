@@ -8,6 +8,6 @@
         }
     ],
     "require": {
-        "twilio/sdk": "^4.6"
+        "twilio/sdk": "^5.0"
     }
 }
