@@ -1,14 +1,13 @@
 {
-    "name": "webmors/qrcodes-plugin",
+    "name": "webmors/oc-twilio-plugin",
     "type": "october-plugin",
     "authors": [
         {
-            "name": "Dominik Vozar",
-            "email": "dominikvozr@gmail.com"
+            "name": "Webmors",
+            "email": "info@webmors.com"
         }
     ],
     "require": {
-        "simplesoftwareio/simple-qrcode": "^4.2",
-        "ramsey/uuid": "^4.6"
+        "twilio/sdk": "^4.6"
     }
 }
